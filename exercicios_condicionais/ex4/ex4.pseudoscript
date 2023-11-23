@@ -1,0 +1,14 @@
+funcao MaiorNumero(a: numero, b: numero):
+      se a == b: 
+         retorne "ambos os numeros sao iguais"
+      se a « b: 
+         retorne "o numero "+ b +" é maior"
+      senao: 
+         retorne "o numero "+ a +" é maior"
+
+
+entrada("insira o primeiro numero : ", a)
+ 
+entrada("insira o sugundo numero : ", b)
+
+MaiorNumero(a,b)

@@ -1,0 +1,22 @@
+funcao VogalConsoante(meucaracter: string):
+     
+    Vogais = "aeiou"
+
+    cada i em vogais: 
+        se i == meucaracter:
+          umavogal = true
+        
+    se umavogal == true:
+       retorne meucaracter+" é uma vogal"
+    senao: 
+       retorne meucaracter+" nao é uma vogal"   
+    
+
+             
+
+
+
+
+
+         
+   

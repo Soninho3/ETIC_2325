@@ -1,0 +1,9 @@
+funcao Divisivel3E5(numero_1: numero):
+     se numero_1 % 3 == 0 && numero_1 % 5 == 0: 
+        imprime("o numero "+numero_1+" é divisivel por 3 e 5")
+      senao: 
+         imprime("o numero "+numero_1+" nao é divisivel por 3 e 5")
+
+entrada("introduza um numero : ", numero1)
+
+Divisivel3E5(numero1)

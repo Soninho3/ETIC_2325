@@ -1,0 +1,10 @@
+funcao AnoBissexto(ano: numero): 
+    se ano % 4 == 0:
+       retorne "este ano é bissexto" 
+    senao: 
+       retorne "este ano nao é bissexto"
+
+
+entrada("insira um ano : ", ano_var)
+
+AnoBissexto(ano_var)

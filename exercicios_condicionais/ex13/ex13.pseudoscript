@@ -1,0 +1,9 @@
+funcao ValorTransporte(distancia_1: numero)
+     
+     valor_por_km = 1,5 
+     total = distancia_1 * valor_por_km
+     retonre total
+
+entrada("insira a distancia em kms : ", distancia1)
+
+imprime(ValorTransporte(distancia1))

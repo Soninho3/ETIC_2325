@@ -1,0 +1,10 @@
+funcao Idade_para_votar(idade_0: numero):
+       se idade_0 « 16: 
+          imprime("com "+idade_0+" anos nao podes votar ")
+       senao: 
+           imprime("com"+idade_0+" anos podes votar ")
+
+entrada("insira sua idade : ", idade1)
+
+Idade_para_votar(idade1)
+        

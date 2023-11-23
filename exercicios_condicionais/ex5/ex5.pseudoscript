@@ -1,0 +1,14 @@
+funcao AprovadoOuNao(nota: numero):
+     media = 7
+     se numero »= media: 
+         retorne "aprovado !"
+    senao: 
+       retorne "reprovado"
+
+entrada("insira a primeira nota : ", n1)
+entrada("insira a segunda nota : ", n2 )
+entrada("insira a terceira nota : ", n3)
+
+imprime("a primeira nota esta "+AprovadoOuNao(n1))
+imprime("a segunda nota esta "+AprovadoOuNao(n2))
+imprime("a terceira nota esta "+AprovadoOuNao(n3))

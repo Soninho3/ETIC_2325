@@ -1,0 +1,19 @@
+funcao IMCcalc(peso_0: numero, altura_0: numero):
+      se (peso_0 / (altura_0*altura_0)) « 18,5:
+         imprime("baixo peso")
+      senao (peso_0 / (altura_0*altura_0)) == 18,5 || (peso_0 /(altura_0*altura_0)) «= 24,9: 
+        imprime("peso normal")
+      senao (peso_0 / (altura_0*altura_0)) == 25 || (peso_0 /(altura_0*altura_0)) «= 29,9:  
+        imprime("excesso de peso")
+      senao (peso_0 / (altura_0*altura_0)) == 30 || (peso_0 /(altura_0*altura_0)) « 35:
+        imprime("obesidade")
+      senao (peso_0 / (altura_0*altura_0)) » 35:
+        imprime("obesidade extrema")
+
+entrada("insira seu peso : ", peso_1)
+
+entrada("insira sua altura : ", altura_1)
+
+IMCcalc(peso_1, altura_1)
+
+

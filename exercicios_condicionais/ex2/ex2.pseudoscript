@@ -1,0 +1,12 @@
+funcao ImparOuPar(a: numero):
+    se a % 2 == 0: 
+       retorne "este numero é par"
+    senao: 
+       retorne "este numero é impar"
+
+entrada("insira um numero : ", x)
+
+ImparOuPar(x)
+
+
+

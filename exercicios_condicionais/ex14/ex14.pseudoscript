@@ -1,0 +1,21 @@
+funcao NumeroPerfeito(NPerfeito: numero):
+    
+     DivisoresSomados = 0
+    
+     cada i em 0...(NPerfeito - 1)
+    
+         se NPerfeito % i == 0:
+            DivisoresSomados = DivisoresSomados + i
+
+    se DivisoresSomados == NPerfeito: 
+        imprime(NPerfeito+" é um numero perfeito")
+    senao: 
+         imprime(NPerfeito+" nao é um numero perfeito")
+
+entrada("insira um numero :", numero1)
+
+NumeroPerfeito(numero1)
+
+
+              
+             

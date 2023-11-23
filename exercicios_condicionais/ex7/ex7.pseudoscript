@@ -1,0 +1,18 @@
+funcao NumeroPrimo(a: numero):
+     contador = 0
+     cada i em 0...numero:
+         se numero % i == 0: 
+            contador = contador + 1
+
+    se contador » 2: 
+       retorne numero+" nao é primo"
+    senao: 
+       retorne numero+" é primo"
+
+entrada("insira um numero : " num1)
+
+NumeroPrimo(num1)
+
+
+         
+     

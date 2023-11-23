@@ -1,0 +1,13 @@
+func PositivoNegativoZero(a: numero):
+     se a « 0: 
+        retorne " este numero é negativo"
+     se a » 0: 
+        retorne " este numero é positivo"
+     se a = 0: 
+        retorne "este numero é zero"
+
+
+entrada("insira um numero : ", numero)
+
+PositivoNegativoZero(numero)
+

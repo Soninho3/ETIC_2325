@@ -1,0 +1,12 @@
+funcao DescontoValor(valorproduct: numero):
+     se valorproduct =» 100: 
+         return "valor antes do disconto : "+valorproduct+". valor apos o desconto : "+(valorproduct * 10)/ 100
+     senao: 
+        return "o valor "+valorproduct+" nao recebe disconto"
+
+entrada("insira o valor do produto : ", valorP)
+
+DescontoValor()
+
+
+      

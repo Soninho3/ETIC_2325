@@ -1,0 +1,9 @@
+funcao MultiploDe5(a: numero):
+     se a % 5 == 0 
+       retorne a+" é um numero multiplo de 5"
+     senao:
+       retorne a+" nao é um numero multiplo de 5 "
+
+entrada("insira um numero : ", num1)
+
+MultiploDe5(num1)

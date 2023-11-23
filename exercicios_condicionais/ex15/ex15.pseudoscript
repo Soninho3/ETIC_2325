@@ -1,0 +1,18 @@
+funcao NumPrimo(ano_0: numero)
+
+      contador = 0 
+
+      cada i em 0...ano_0: 
+           se ano_0 % i == 0 
+           contador = contador + 1
+
+      se contador » 2:  
+         imprime(ano_0+" é um numero primo")
+      senao: 
+         imprime(ano_0+" nao é um numero primo")
+
+entrada("insira um ano : ", ano1)
+
+NumPrimo(ano1)
+
+    
